@@ -45,7 +45,8 @@ author-name: TheDevsLot
 # URL for the Image of the Author
 author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: Howdy! I'm Ethan. I'm a Level 5 University of Portsmouth student, studying Computer Games Technology. My passion is learning about / creating games, as a medium of entertainment and as an experience. My joy comes from programming games, everything from gameplay features, streamline features and the arithmetic behind it all; other aspects of game development intrigue me as well.\n I have a keen interest in music composition / playing keyboard, I like to watch anime and read manga and I love playing story-driven single player games (especially JRPG's and Action games).
+author-about-short: I'm a Level 5 University of Portsmouth student, studying Computer Games Technology.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://github.com/thedevslot
 

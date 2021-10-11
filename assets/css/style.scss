@@ -87,20 +87,20 @@ a.navbar-item.is-active {
         margin: 10px;
         flex: 1 1 0;
         h2, h3 {
-          font-weight: 400;
+          font-weight: 300;
         }
       }
       
     .user {
-    text-align: center;
-    font-size: 60px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    p {
-        font-size: 16px;
-    }
+        text-align: center;
+        font-size: 60px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        p {
+            font-size: 16px;
+        }
     }
 }
 
