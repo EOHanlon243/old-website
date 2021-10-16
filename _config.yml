@@ -7,48 +7,48 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: What A Theme
+title: Ethan O'Hanlon - Game Programmer
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: Game Programmer & Enthusiast
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /assets/images/meta.jpg
 # Keywords of the Site
-site-keywords: Site, Template, Theme
+site-keywords: Games, Programming, Development
 # URL for the Image of custom Favicon
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: https://www.youtube.com/watch?v=l554kV12Wuo&ab_channel=InsiderNews
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+email: ethan.ohanlon243@gmail.com
+facebook_username: 
+twitter_username: 
+instagram_username: 
+linkedin_username: ethan-o-hanlon-44b94518a
+github_username:  EOHanlon243
+youtube_channel_id: 
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
 
 # Google Analytics
 google-analytics: UA-163806439-1
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname: eohanlon243
 
 # Name of the Author
-author-name: TheDevsLot
+author-name: Ethan O'Hanlon
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: /assets/images/author.jpg
 # 60 Words About the Author
 author-about: Howdy! I'm Ethan. I'm a Level 5 University of Portsmouth student, studying Computer Games Technology. My passion is learning about / creating games, as a medium of entertainment and as an experience. My joy comes from programming games, everything from gameplay features, streamline features and the arithmetic behind it all; other aspects of game development intrigue me as well. I have a keen interest in music composition / playing keyboard, I like to watch anime and read manga and I love playing story-driven single player games (especially JRPG's and Action games).
 author-about-short: I'm a Level 5 University of Portsmouth student, studying Computer Games Technology.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/EOHanlon243
 
 # SASS
 sass:
