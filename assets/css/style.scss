@@ -78,13 +78,17 @@ a.navbar-item.is-active {
         }
     }
 
+    p{
+        margin: 15px;
+    }
+
     a {
         min-width: 25vmax;
         margin: 0.5rem;
     }
     
     .tech {
-        margin: 10px;
+        margin: 35px;
         flex: 1 1 0;
         h2, h3 {
           font-weight: 300;
