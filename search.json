@@ -1,15 +1,15 @@
 ---
-layout: compress
+layout: none
 ---
 [
   {% for post in site.posts %}
     {
       "title"    : "{{ post.title | escape }}",
+      "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
-      "url"      : "{{ site.url }}{{ site.baseurl }}{{ post.url }}",
-      "date"     : "{{ post.date | date: '%-B %d, %Y' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
       "description" : "{{ post.description | strip_newlines | strip_html | strip | escape }}",
-      "content" : "{{ post.content | truncate: '300' | strip_html | strip_newlines | strip | escape }}",
+      "date"     : "{{ post.date }}",
       "image" : "{{post.post-image}}",
       "readtime" : "{{ post.content | number_of_words | divided_by:180 }}"
     } {% unless forloop.last %},{% endunless %}
