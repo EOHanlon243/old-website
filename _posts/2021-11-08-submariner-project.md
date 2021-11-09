@@ -7,7 +7,7 @@ tags:
 - university
 - client-based
 - simulation
-published: false
+published: true
 ---
 
 # What is the Submariner Project?
@@ -18,9 +18,9 @@ published: false
 
 ### Terragen 4 - 
 
-The world that I needed to create has provide a sense of realism. Because of this, using in-built Unity tools will not be sufficient enough, especially with no experience using them. As such, we thought the best course of action would be to use other software to manage world generation. After searching for software options, we first attempted to use Terragen 4.
+The world that I needed to create has provide a sense of realism. Because of this, using in-built Unity tools will not be sufficient enough, especially with no experience using them. As such, we thought the best course of action would be to use other software to manage world generation. After searching for software options, we first attempted to use *Terragen 4*.
 
-Terragen 4 is a very reputable software made for creating environmental scenes and renders for films, games, and virtual reality. As it has been used previously within games and virtual reality, it seemed like an ideal software for world generation.
+*Terragen 4* is a very reputable software made for creating environmental scenes and renders for films, games, and virtual reality. As it has been used previously within games and virtual reality, it seemed like an ideal software for world generation.
 
 <figure>
   <img src="/assets/images/submariner/terragen-test-landscape.png" alt="Terragen Test Landscape">
@@ -34,7 +34,7 @@ At first, the software seemed very beneficial for us to use; it has a high reput
   <figcaption align = "center"><i><b>Figure 2 </b> - Terragen Ocean Testing</i></figcaption>
 </figure>
 
-Due to how powerful Terragen is, learning how to utilise the software proved to be a challenge. Normally I would considerer learning the program , however as it was a client project, we couldn’t afford the time to do so.
+Due to how powerful *Terragen* is, learning how to utilise the software proved to be a challenge. Normally I would considerer learning the program , however as it was a client project, we couldn’t afford the time to do so.
 
 Unfortunately, the biggest draw back was the limited amount of export options available. This became an issue due to our method of generating a landscape required maps. These maps would be applied to a terrain object, creating a landscape. In previous versions, they allowed for exporting maps, which was no longer the case.
 
@@ -42,9 +42,9 @@ If exportation was not a problem, this software would be ideal for our project. 
 
 
 ### L3DT -
-L3DT is a Windows application for generating terrain maps and textures. It's intended to help game developers and digital artists create vast high-quality 3D worlds. L3DT offered similar features as Terragen 4 but was more comprehensible and user friendly. 
+*L3DT* is a Windows application for generating terrain maps and textures. It's intended to help game developers and digital artists create vast high-quality 3D worlds. *L3DT* offered similar features as *Terragen 4* but was more comprehensible and user friendly. 
 
-It was easy to create convincing looking terrain with features such as a sea depth or terrain type. Then, adjusting these values on how the world is generating. The main reason for using L3DT was the option for map exporting for our terrain landscape.
+It was easy to create convincing looking terrain with features such as a sea depth or terrain type. Then, adjusting these values on how the world is generating. The main reason for using *L3DT* was the option for map exporting for our terrain landscape.
 
 After finding suitable software for our project, I began to construct the landscape. At first, I did not put much consideration into what I was creating. Rather, my main goal with my time was understanding how the software worked and what features were accessible to me. That way, I can make the most convincing landscape possible.
 
@@ -62,16 +62,16 @@ The heightfield size allowed for changing the size and resolution that the maps 
   <figcaption align = "center"><i><b>Figure 4 </b> - Design Map Parameters</i></figcaption>
 </figure>
 
-The next settings I tested were the design map parameters. These parameters determined how much specific feature of the world would be generated and to what scale. Determining a balance between these features was key to creating a useful landscape. The elements affected include:
+The next settings I tested were the design map parameters. These parameters determined how much specific features of the world would be generated and to what scale. Determining a balance between these features was key to creating a useful landscape. The elements affected include:
 
 *Average Altitude – Average Height of terrain and percentage of how much land is above sea level.
-*	Altitude Range – Flatness / Steepness of terrain.
-*	Scale of features – Height and width of features such as valleys and hills.
-* Noise Strength – Random fractals and peaks applied to map.
-*	Noise Shape – Smoothness / Jaggedness of terrain (such as jagged rocks or rolling hills).
-*	Cliffs and Terraces – Number and strength of cliffs/terraces (Edges and flat areas).
-*	Erosion – How much fluvial and thermal erosion is applied to erosion.
-* Lakes – How large and how filled lakes would be in your terrain.
+*	***Altitude Range*** – Flatness / Steepness of terrain.
+*	***Scale of features*** – Height and width of features such as valleys and hills.
+* ***Noise Strength*** – Random fractals and peaks applied to map.
+*	***Noise Shape*** – Smoothness / Jaggedness of terrain (*such as jagged rocks or rolling hills*).
+*	***Cliffs and Terraces*** – Number and strength of cliffs/terraces (*Edges and flat areas*).
+*	***Erosion*** – How much fluvial and thermal erosion is applied to erosion.
+* ***Lakes*** – How large and how filled lakes would be in your terrain.
 
-After studying the basics of L3DT, it was time to install a trial landscape into Unity. When exporting files into Unity, L3DT allows downloading of specific terrain maps. Specifically, the height, normal and texture maps. Then, I applied the maps to the terrain object, creating a new landscape within Unity.
+After studying the basics of *L3DT*, it was time to install a trial landscape into Unity. When exporting files into Unity, *L3DT* allows downloading of specific terrain maps. Specifically, the height, normal and texture maps. Then, I applied the maps to the terrain object, creating a new landscape within Unity.
 
