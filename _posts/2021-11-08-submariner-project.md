@@ -42,36 +42,26 @@ If exportation was not a problem, this software would be ideal for our project. 
 
 
 ### L3DT -
-*L3DT* is a Windows application for generating terrain maps and textures. It's intended to help game developers and digital artists create vast high-quality 3D worlds. *L3DT* offered similar features as *Terragen 4* but was more comprehensible and user friendly. 
+*L3DT* is a Windows application for generating terrain maps and textures. It's intended to help game developers and digital artists create high-quality 3D worlds. *L3DT* offered similar features as *Terragen 4* but in a more simplistic fashion. 
 
 It was easy to create convincing looking terrain with features such as a sea depth or terrain type. Then, adjusting these values on how the world is generating. The main reason for using *L3DT* was the option for map exporting for our terrain landscape.
 
-After finding suitable software for our project, I began to construct the landscape. At first, I did not put much consideration into what I was creating. Rather, my main goal with my time was understanding how the software worked and what features were accessible to me. That way, I can make the most convincing landscape possible.
-
-There were many generation settings to tinker with, such as the heightfield size.
+After finding suitable software for our project, I began to construct the landscape. At first, I did not put much consideration into what I was creating. Rather, my main goal was to understand how the software worked and what features are usable. That way, I can make the most convincing landscape possible. There were different settings to tinker with that allow for simple landscape generation.
 
 <figure>
   <img src="/assets/images/submariner/heightfield-size.png" alt="Heightfield Size ">
   <figcaption align = "center"><i><b>Figure 3 </b> - Heightfield Size</i> </figcaption>
 </figure>
 
-The heightfield size allowed for changing the size and resolution that the maps would take. Measured in meters, the size of the map can be scaled to best fit an ocean environment. The resolution was critical to getting high-definition textures and to allow for more precise editing of the terrain maps.
+The heightfield size allowed for changing the size and resolution of the maps. Measured in meters, scaling the size of the map to best fit an ocean environment. The correct resolution was critical to getting high-definition textures. Likewise, details on the map can be more precise.
 
 <figure>
   <img src="/assets/images/submariner/design-map-parameters.png" alt="Heightfield Size Settings">
   <figcaption align = "center"><i><b>Figure 4 </b> - Design Map Parameters</i></figcaption>
 </figure>
 
-The next settings I tested were the design map parameters. These parameters determined how much specific features of the world would be generated and to what scale. Determining a balance between these features was key to creating a useful landscape. The elements affected include:
+Furthermore, Design map parameters determined how many features of the world would be generated and to what scale. Determining a good balance between these features was key to creating the landscape. 
 
-*Average Altitude – Average Height of terrain and percentage of how much land is above sea level.
-*	***Altitude Range*** – Flatness / Steepness of terrain.
-*	***Scale of features*** – Height and width of features such as valleys and hills.
-* ***Noise Strength*** – Random fractals and peaks applied to map.
-*	***Noise Shape*** – Smoothness / Jaggedness of terrain (*such as jagged rocks or rolling hills*).
-*	***Cliffs and Terraces*** – Number and strength of cliffs/terraces (*Edges and flat areas*).
-*	***Erosion*** – How much fluvial and thermal erosion is applied to erosion.
-* ***Lakes*** – How large and how filled lakes would be in your terrain.
+Over the time using the software, I found that editing the landscape wasn’t as in-depth as I hoped. What's gained with simplifying the process, it lost in its lack of post-generation editing. Besides this, the outcome you receive is not as realistic as hoped. Generation led to abnormal-looking islands and unusable underwater sections. Yet, in the end, *L3DT* proved to be the only viable option at the time.
 
-After studying the basics of *L3DT*, it was time to install a trial landscape into Unity. When exporting files into Unity, *L3DT* allows downloading of specific terrain maps. Specifically, the height, normal and texture maps. Then, I applied the maps to the terrain object, creating a new landscape within Unity.
-
+After studying the basics of *L3DT*, it was time to install a trial landscape into Unity. When exporting files into Unity, *L3DT* allows downloading of specific terrain maps. Specifically, the height, normal and texture maps. Then, I applied the maps to the terrain object, creating a new landscape within Unity. 
