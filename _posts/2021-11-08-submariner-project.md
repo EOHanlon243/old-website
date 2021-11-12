@@ -15,6 +15,21 @@ published: true
 > The Submariner Project was a joint collaboration project between the University of Portsmouth and the Royal Navy. The project involved creating an accurate Navy Submarine simulator that would later be used in Navy recruitment events. The goal of the simulation is to traverse the sea in the submarine and spot a target vessle (indicated by a red flag).
 
 --- 
+As the final project of my first year of University, I was chosen to be part of Team Submariner. This team was hand selected to produce a project for an external client. The client being The Royal Navy.
+
+The project in question was a virtual reality (VR) submarine simulation, where two people took roles on a submarine. It was required to create two separate roles for the game. Firstly, the Planesman, who operates the bow or stern diving planes of a submarine. The second being a Periscope Operator who operates a periscope to observe surrounds and provides information about their location. They would work together with the objective of identifying a target vessel (marked with a red flag).
+
+The goal of the project was to increase engagement of people attending recruitment events, in hopes of getting more people to sign up for the navy. Due to this, the simulation it would have to be small in terms of playtime and scale. Therefore, the playtime would range between 90 – 120 seconds, allowing more people to play it throughout the event. Additionally, as this was a simulation, it was expected to look and act as realistically as possible whilst having VR functionality.
+
+Due to the nature of this project and our client, an NDA was needed to be signed before the Navy could supply use with information of the project. This also include assets and other useful resources and documentation. The limitations of COVID-19 also prevented us from observing a submarine in person, instead we would receive a 3D scan as reference.
+
+Unfortunately, as Christmas was very close, it would have to wait at least five weeks before the NDA could be processed, and the resources could be sent over. Due to the lack of information from the navy and lack of leadership from our leader at the time, we had no clear starting point for the project.
+
+Since the beginning of the project, I felt uneasy as not only did I not feel like I deserved to work on this project, having much less experience with general game development than everyone else, but also the fact that the Royal Navy was our client. These worries, alongside the lack of management from our leader led me to not participate within the project for the first month or so.
+
+During this time, a game jam for creating the first prototype of the simulation was planned out. As I saw this as a proper start to the project, I was prepared to join them in efforts to make a start on the project, however, due to personal reasons, I was unable to attend. The game jam led to a working prototype with some basic game features working.
+
+As many of the gameplay tasks were being covered by some of the other teammates, my first task within the project was to create and implement some undersea terrain, along with a few islands that would be used as the world for our game. With a little guidance from my team, I began to look into software that I can use to create / generate terrain.
 
 ### Terragen 4 - 
 
@@ -22,23 +37,24 @@ The world that I needed to create has provide a sense of realism. Because of thi
 
 *Terragen 4* is a very reputable software made for creating environmental scenes and renders for films, games, and virtual reality. As it has been used previously within games and virtual reality, it seemed like an ideal software for world generation.
 
-<figure>
-  <img src="/assets/images/submariner/terragen-test-landscape.png" alt="Terragen Test Landscape">
-  <figcaption align = "center"><i><b>Figure 1 </b> - Terragen Landscape Testing </i></figcaption>
-</figure>
+<div class="columns">
+  <div class= "column is-half" align = "center"> 
+    <figure>
+      <img src="/assets/images/submariner/terragen-test-landscape.png" alt="Terragen Test Landscape" class="has-ratio">
+      <figcaption align = "center"><i><b>Figure 1 </b> - Terragen Landscape Testing </i></figcaption>
+    </figure>
+  </div>
+  <div class= "column is-half" align = "center">
+    <figure>
+      <img src="/assets/images/submariner/terragen-test-ocean.png" alt="Terragen Ocean Testing" class="has-ratio">
+      <figcaption align = "center"><i><b>Figure 2 </b> - Terragen Ocean Testing</i></figcaption>
+    </figure>
+  </div>
+</div>
 
-At first, the software seemed very beneficial for us to use; it has a high reputation, having been used in a variety of games and other media. If utilised correctly, it will surely lead to great results.
+At first, the software seemed very beneficial for us to use; it has a high reputation, having been used in a variety of games and other media. If utilised correctly, it will surely lead to great results. Due to how powerful *Terragen* is, learning how to utilise the software proved to be a challenge. Normally I would considerer learning the program , however as it was a client project, we couldn’t afford the time to do so.
 
-<figure>
-  <img src="/assets/images/submariner/terragen-test-ocean.png" alt="Terragen Ocean Testing">
-  <figcaption align = "center"><i><b>Figure 2 </b> - Terragen Ocean Testing</i></figcaption>
-</figure>
-
-Due to how powerful *Terragen* is, learning how to utilise the software proved to be a challenge. Normally I would considerer learning the program , however as it was a client project, we couldn’t afford the time to do so.
-
-Unfortunately, the biggest draw back was the limited amount of export options available. This became an issue due to our method of generating a landscape required maps. These maps would be applied to a terrain object, creating a landscape. In previous versions, they allowed for exporting maps, which was no longer the case.
-
-If exportation was not a problem, this software would be ideal for our project. Thus, this led into further search for map generation software.
+Unfortunately, the biggest draw back was the limited amount of export options available. This became an issue due to our method of generating a landscape required maps. These maps would be applied to a terrain object, creating a landscape. In previous versions, they allowed for exporting maps, which was no longer the case. If exportation was not a problem, this software would be ideal for our project. Thus, this led into further search for map generation software.
 
 
 ### L3DT -
@@ -48,20 +64,141 @@ It was easy to create convincing looking terrain with features such as a sea dep
 
 After finding suitable software for our project, I began to construct the landscape. At first, I did not put much consideration into what I was creating. Rather, my main goal was to understand how the software worked and what features are usable. That way, I can make the most convincing landscape possible. There were different settings to tinker with that allow for simple landscape generation.
 
-<figure>
-  <img src="/assets/images/submariner/heightfield-size.png" alt="Heightfield Size ">
-  <figcaption align = "center"><i><b>Figure 3 </b> - Heightfield Size</i> </figcaption>
-</figure>
+<div class="columns">
+  <div class= "column" align = "center"> 
+    <figure>
+      <img src="/assets/images/submariner/heightfield-size.png" alt="Heightfield Size" class="has-ratio">
+      <figcaption align = "center"><i><b>Figure 3 </b> - Heightfield Size</i> </figcaption>
+    </figure>
+  </div>
+  <div class= "column" align = "center">
+    <figure>
+      <img src="/assets/images/submariner/design-map-parameters.png" alt="Design Map Parameters" class="has-ratio">
+      <figcaption align = "center"><i><b>Figure 4 </b> - Design Map Parameters</i></figcaption>
+    </figure>
+  </div>
+</div>
 
-The heightfield size allowed for changing the size and resolution of the maps. Measured in meters, scaling the size of the map to best fit an ocean environment. The correct resolution was critical to getting high-definition textures. Likewise, details on the map can be more precise.
-
-<figure>
-  <img src="/assets/images/submariner/design-map-parameters.png" alt="Heightfield Size Settings">
-  <figcaption align = "center"><i><b>Figure 4 </b> - Design Map Parameters</i></figcaption>
-</figure>
-
-Furthermore, Design map parameters determined how many features of the world would be generated and to what scale. Determining a good balance between these features was key to creating the landscape. 
+The heightfield size allowed for changing the size and resolution of the maps. Measured in meters, scaling the size of the map to best fit an ocean environment. The correct resolution was critical to getting high-definition textures. Likewise, details on the map can be more precise. Furthermore, Design map parameters determined how many features of the world would be generated and to what scale. Determining a good balance between these features was key to creating the landscape. 
 
 Over the time using the software, I found that editing the landscape wasn’t as in-depth as I hoped. What's gained with simplifying the process, it lost in its lack of post-generation editing. Besides this, the outcome you receive is not as realistic as hoped. Generation led to abnormal-looking islands and unusable underwater sections. Yet, in the end, *L3DT* proved to be the only viable option at the time.
 
 After studying the basics of *L3DT*, it was time to install a trial landscape into Unity. When exporting files into Unity, *L3DT* allows downloading of specific terrain maps. Specifically, the height, normal and texture maps. Then, I applied the maps to the terrain object, creating a new landscape within Unity. 
+
+### Crosshair Creation -
+
+I also started work on designing and implementing crosshairs to show where the user is aiming. When thinking about how to go about creating different crosshairs for the project. I had to ensure that the crosshair itself does not obstruct the view of in-game objects and UI elements. My starting point was to look for inspiration for crosshairs from similar games.
+
+One of those games was Wolfpack, an in-depth simulation of a submarine taking place during World War 2. Some of the crosshair designs implemented within their game consist of a regular crosshair design and a simplistic dot. Due to how similar the game was, it was clear to see where each of the crosshairs had its uses with the game. For example, the ‘dot’ showed interaction with objects and the ‘regular crosshair’ for aiming.
+
+<div class="columns">
+  <div class= "column" align = "center"> 
+    <figure>
+      <img src="/assets/images/submariner/crosshair-cross.png" alt="Cross Crosshair" class="has-ratio">
+      <figcaption align = "center"><i><b>Figure 5 </b> - Cross Crosshair</i> </figcaption>
+    </figure>
+  </div>
+  <div class= "column" align = "center">
+    <figure>
+      <img src="/assets/images/submariner/crosshair-dot.png" alt="Dot Crosshair" class="has-ratio">
+      <figcaption align = "center"><i><b>Figure 6 </b> - Dot Crosshair</i></figcaption>
+    </figure>
+  </div>
+</div>
+
+Both of these can work well due to the first-person perspective we have applied to the game. Both provide a good amount of clarity and many players (especially our target audience can understand how to use them.
+
+Due to the heavy association between crosshair designs with other game genres, my research went towards looking at crosshair designs used within FPS games, which rely on using crosshairs for their gameplay loop. The FPS games I looked at as reference and inspiration for my designs were Counter Strike: Global Offensive (CS: GO) and Tom Clancy’s Rainbow Six Siege (R6 Siege). 
+
+<figure>
+  <img src="/assets/images/submariner/crosshair-tshape.png" alt="T-Shaped Crosshair" class="has-ratio">
+  <figcaption align = "center"><i><b>Figure 7 </b> - T-Shaped Crosshair</i></figcaption>
+</figure>
+
+CS: GO is a free-to-play FPS game that features two teams, where the gameplay loops follows an attack/defence formula with a creative use of weaponry and team tactics to make matches dynamic. Due to the games heavy themes of combat and use of weaponry, crosshairs are used all the time. Many different styles of crosshairs are created, from default options to very unique styles created by the community. Out of the designs available in CS: GO, the designs that piqued my interest was the t-shaped crosshair. It provides a bold design which doesn’t make the player lose sight of it. However, compared to a normal crosshair, it provides a little more clarity by removing the top line from the design.
+
+<figure>
+  <img src="/assets/images/submariner/crosshair-triangle.png" alt="Triangle Crosshair" class="has-ratio">
+  <figcaption align = "center"><i><b>Figure 8 </b> - Triangle Crosshair</i></figcaption>
+</figure>
+
+Out of the designs available in CS: GO, the designs that piqued my interest was the t-shaped crosshair. It provides a bold design which doesn’t make the player lose sight of it. However, compared to a normal crosshair, it provides a little more clarity by removing the top line from the design. For R6 Siege, the ACOG scope’s triangular styled crosshair provides a nice boldness whilst keeping a sense of clarity. However, the bottom line would not add any significance to the crosshair, rather it would cause confusion and reduce clarity.
+
+<figure>
+  <img src="/assets/images/submariner/crosshair-gungeon.png" alt="Enter The Gungeon Crosshairs" class="has-ratio">
+  <figcaption align = "center"><i><b>Figure 9 </b> - Enter The Gungeon Crosshair</i></figcaption>
+</figure>
+
+Another game I was inspired by ‘Enter the Gungeon’, an action roguelike themed around exploring a dungeon of weaponry and sentient ammunition (Enter The Gungeon, 2016). To fit with a theme, they created cursors styled in the way of different types of crosshairs. From the styles present in the game, the main ones that stuck out were the square and circle cursor with the centre dot. These different styles provided boldness whilst being clear. 
+
+### Bathymetry - 
+
+Bathymetry is the study of shapes and the depth of water within oceans, rivers and other large bodies of water. Similar to topography maps, they are mapped out to represent three dimensional features of water bodies by providing lines / colours that differentiate between layers of depth. This also serves as a foundation for other sciences such as hydrography ,which measures the physical features of water.
+
+In addition to this, it has assisted me with my understanding of terms and other vocabulary commonly used within the topic. For example, depth and altitude have separate definitions and are both measured differently. Depth being the deepness of a waterbody from the water surface; altitude being the deepness in regard to the platforms ‘system reference point. The terminology learnt helped me to have a better understanding on bathymetry maps.
+
+There are many interactive bathymetry maps online, made by well-established organisations and some government websites that provided bathymetry data from all over the world. They even provide survey track lines, showing the distance and location the survey took place, when the survey was completed and even maximum and minimum depths of the area surveyed. Looking at the data, in regard to their date and relevance, it allowed me to understand bathymetry of different terrains around the world.
+
+Through this research, I had decided that a small coastal archipelago would be the best type of terrain to go, as doing so will allow for dynamic placement of other vessels. This placement will urge the player to explore around the zone in search for the targeted vessel. In addition to this, it will provide an interesting view for the periscope player to look at, encouraging more engagement with the game. Finally, it will also provide a challenge when navigating the area, encouraging teamwork between the periscope and planesman players.
+
+### World Generation Testing -
+
+In my efforts to create an immersive and effective world for our periscope user to view, a plan was created to ensure essential criteria was met during its development.
+
+The plan consisted of me using the generation features provided within L3DT to create multiple worlds to find the most optimal setting to create the final world. These criteria were taking my bathymetry research into mind. The criteria created are as followed:
+
+1.	Majority of the terrain must be sea level whilst allowing the formation of an archipelago to exist.
+2.	Islands created must have a notable nature element (which is only apparent upon generation of the texture layer).
+3.	Water depth must be deep enough for the submarine to manoeuvre without trouble. (Max Depth: 1200m)
+4.	Must provide a little navigation challenge in terms of manoeuvrability throughout the water.
+
+Using the world generation settings and parameters, I generated three different prototype worlds that followed, with each iteration having slight differences in their attributes, narrowing down towards the most optimal generation settings. Here are each of the prototypes and the settings they used:
+
+#### Attempt 1:
+
+<figure>
+  <img src="/assets/images/submariner/landscape-generation-1.png" alt="Landscape Generation 1"  style="height:350px">
+  <figcaption align = "center"><i><b>Figure 10 </b> - Landscape Generation 1</i></figcaption>
+</figure>
+
+| Benefits:                                  | Drawbacks:          | Improvements:                  |
+|--------------------------------------------|---------------------|--------------------------------|
+| Good land to sea ration.                   | Not enough islands. | Add more islands to generation |
+| Islands are well established.              | Sea is too deep.    | Reduce depth of map.           |
+| Considerable nature elements.              |                     |                                |
+| Sea depth viable for submarine movability. |                     |                                |
+
+During this attempt, the design map scale was too low, which produced bland and quite unnatural looking islands which did not fit within my criteria. So, for the later attempts, the design map scale was increased, allowing for more interesting islands and potentially archipelagos to be generated.
+
+#### Attempt 2:
+
+<figure>
+  <img src="/assets/images/submariner/landscape-generation-2.png" alt="Landscape Generation 2" style="height:350px">
+  <figcaption align = "center"><i><b>Figure 10 </b> - Landscape Generation 2</i></figcaption>
+</figure>
+
+| **Benefits:**                  | **Drawbacks:**                                 | **Improvements:**                                            |
+|--------------------------------|------------------------------------------------|--------------------------------------------------------------|
+| Good land to sea ration.       | Sea exceeding depth limit in parts.            | Sea near islands needs to be deeper.                         |
+| Islands are well established.  | Sea depth not viable for submarine movability. | Change undersea land so it doesn’t hinder submarine movement |
+| Considerable nature elements.  | Sea is mostly shallow.                         |                                                              
+
+For this attempt, although the islands were more interesting and provided a nice variance in shape and size, they were spaced out too far. That prevented us from implementing certain requirements in the way we wanted them to, such as ships hiding behind the islands.
+
+#### Attempt 3:
+
+<figure>
+  <img src="/assets/images/submariner/landscape-generation-3.png" alt="Landscape Generation 3" style="height:350px">
+  <figcaption align = "center"><i><b>Figure 10 </b> - Landscape Generation 3</i></figcaption>
+</figure>
+
+| **Benefits:**                               | **Drawbacks:**                      | **Improvements:**  |
+|---------------------------------------------|-------------------------------------|--------------------|
+| Good land to sea ratio.                     | Sea exceeding depth limit in parts. | Change sea depth.  |
+| Islands are well established.               | Too many islands.                   |                    |
+| Considerable nature elements.               | Part of the sea is shallow.         |                    |
+| Sea depth viable for submarine movability.  |                                     |                    |
+| Sea only exceeding the depth limit.         |                                     |                    |
+|                                             |                                     |                    |
+
+When generating this attempt, it provided quite an interesting formation of islands that were spaced well enough to achieve my criteria and to allow for interesting gameplay mechanics to be fully utilised. However, the large islands did concern me at first, so I implemented a terrain object within a separate unity project to see how much it would affect the submarine’s manoeuvrability and the periscope visibility. It did constrict the submarine’s movement a little bit, it still provided what we needed for the project.
