@@ -15,6 +15,8 @@ published: true
 > The Submariner Project was a joint collaboration project between the University of Portsmouth and the Royal Navy. The project involved creating an accurate Navy Submarine simulator that would later be used in Navy recruitment events. The goal of the simulation is to traverse the sea in the submarine and spot a target vessle (indicated by a red flag).
 
 --- 
+## Project Intialisation
+
 As the final project of my first year of University, I was chosen to be part of Team Submariner. This team was hand selected to produce a project for an external client. The client being The Royal Navy.
 
 The project in question was a virtual reality (VR) submarine simulation, where two people took roles on a submarine. It was required to create two separate roles for the game. Firstly, the Planesman, who operates the bow or stern diving planes of a submarine. The second being a Periscope Operator who operates a periscope to observe surrounds and provides information about their location. They would work together with the objective of identifying a target vessel (marked with a red flag).
@@ -131,7 +133,21 @@ Out of the designs available in CS: GO, the designs that piqued my interest was 
 
 Another game I was inspired by ‘Enter the Gungeon’, an action roguelike themed around exploring a dungeon of weaponry and sentient ammunition (Enter The Gungeon, 2016). To fit with a theme, they created cursors styled in the way of different types of crosshairs. From the styles present in the game, the main ones that stuck out were the square and circle cursor with the centre dot. These different styles provided boldness whilst being clear. 
 
-|---|
+--- 
+
+### Feedback -
+
+To ensure that our progress with up to expectations, we scheduled a meeting with our lecturer, Ted. Within this meeting, we wanted to go over completed tasks, ways to improve and approaches for future tasks. We created a Powerpoint that showcases our progress and achieved milestones. Each page represented a person and the progress they contributed to the project.
+
+During the meeting, we presented the presentation, where it was meet the good response. Yet, to meet the standard of the Royal Navy,  many elements had improvements to make. In the work I created, there were areas in my research and prototyping where I neglected. 
+
+For world generation, Ted suggested to research into Bathymetry, the study of sea depth. He linked me to online resources to assist me, such as a bathymetry map of the world. This will help me further understand sea depth and archipelago landscape formation.
+
+For my crosshairs, he advised me to observe how the crosshairs would work with colour blindness. Especially, light colour primaries such as red and green. This will help understand how the colour choice would affect the user experience. Checking these types of concerns will help to increase the accessibility of our game and game development later on.
+ 
+With our feedback obtained, my next goal was to re-create the landscape. Using bathymetry to create acceptable criteria to assess landscape generation.
+
+--- 
 
 ## Bathymetry - 
 
@@ -357,7 +373,7 @@ Using these images, a google form was made, allowing our teammates to vote on wh
 
 Since it was a split between the morning and afternoon sky, I decided to chose the morning sky as it had more clarity than the afternoon sky.  In addition to having the fog on the borders, I made the decision to have a small amount of fog within the play area to better suit the environment and make the fog on the borders more reasonable.
 
-## Ship Movement / Prefab Editing:
+## Ship Movement / Prefab Editing
 
 Just like the fog, I was recommended a video series on how to create a nav mesh and how to use nav agents to navigate the mesh (Brackeys, 2018). However, a few of the details within this video were out of date for the version of Unity we were using. Instead, I looked into another YouTube video, that gave me a great overview on how to create a nav mesh (Table Flip Games, 2019).
 My start to creating the nav mesh began with using a plane object to bake my nav mesh onto. This plane would be a little smaller than the playable to ensure no ships went out of bounds. At the beginning, I had the height map placed on the water surface. However, there were issues with how the ships would spawn, with many of them floating above the water. This was more of an issue that with how nav agents worked with nav meshes.
