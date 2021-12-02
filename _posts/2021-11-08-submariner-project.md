@@ -89,9 +89,9 @@ After studying the basics of *L3DT*, it was time to install a trial landscape in
 
 ## Crosshair Creation -
 
-I also started work on designing and implementing crosshairs to show where the user is aiming. When thinking about how to go about creating different crosshairs for the project. I had to ensure that the crosshair itself does not obstruct the view of in-game objects and UI elements. My starting point was to look for inspiration for crosshairs from similar games.
+As a side task, I was also talked about designing and implementing crosshairs to our game. These will display where the player is aiming at the screen. With my designs, they had to not obstruct the view of in-game objects or UI elements. My starting point was to look for inspiration for designs from similar games.
 
-One of those games was Wolfpack, an in-depth simulation of a submarine taking place during World War 2. Some of the crosshair designs implemented within their game consist of a regular crosshair design and a simplistic dot. Due to how similar the game was, it was clear to see where each of the crosshairs had its uses with the game. For example, the ‘dot’ showed interaction with objects and the ‘regular crosshair’ for aiming.
+One of those games was Wolfpack, an in-depth simulation of a submarine taking place during World War 2. Due to how similar the game was to our project, it was a great source of inspiration for our game. This game utilised two crosshairs, such as a regular crosshair and a dot design. Both designs are used in differing scenarios.
 
 <div class="columns">
   <div class= "column" align = "center"> 
