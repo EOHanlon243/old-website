@@ -108,30 +108,30 @@ One of those games was Wolfpack, an in-depth simulation of a submarine taking pl
   </div>
 </div>
 
-Both of these can work well due to the first-person perspective we have applied to the game. Both provide a good amount of clarity and many players (especially our target audience can understand how to use them.
+Both crosshairs can work well due to the first-person perspective of our game. Both provide are great for guiding the player to where they are looking at.
 
-Due to the heavy association between crosshair designs with other game genres, my research went towards looking at crosshair designs used within FPS games, which rely on using crosshairs for their gameplay loop. The FPS games I looked at as reference and inspiration for my designs were Counter Strike: Global Offensive (CS: GO) and Tom Clancy’s Rainbow Six Siege (R6 Siege). 
+Crosshairs have great association with the first person shooter (FPS) genre of games. As such, my research went towards looking at crosshair design from that genre. Two FPS games I used as reference and inspiration from were Counter Strike: Global Offensive (CS: GO) and Tom Clancy’s Rainbow Six Siege (R6S). 
 
 <figure>
   <img src="/assets/images/submariner/crosshair-tshape.png" alt="T-Shaped Crosshair" class="has-ratio">
   <figcaption align = "center"><i>T-Shaped Crosshair</i></figcaption>
 </figure>
 
-CS: GO is a free-to-play FPS game that features two teams, where the gameplay loops follows an attack/defence formula with a creative use of weaponry and team tactics to make matches dynamic. Due to the games heavy themes of combat and use of weaponry, crosshairs are used all the time. Many different styles of crosshairs are created, from default options to very unique styles created by the community. Out of the designs available in CS: GO, the designs that piqued my interest was the t-shaped crosshair. It provides a bold design which doesn’t make the player lose sight of it. However, compared to a normal crosshair, it provides a little more clarity by removing the top line from the design.
+First, I started with looking into CS:GO.  Due to the games heavy themes of combat and use of weaponry, crosshairs are essential. The game offers a variety of crosshair designs, which are customisable for accessibility. Out of the available designs, the main one that piqued my interest was the t-shaped crosshair. It provides a bold design whilst providing a bit more clarity that the normal crosshair.
 
 <figure>
   <img src="/assets/images/submariner/crosshair-triangle.png" alt="Triangle Crosshair" class="has-ratio">
   <figcaption align = "center"><i>Triangle Crosshair</i></figcaption>
 </figure>
 
-Out of the designs available in CS: GO, the designs that piqued my interest was the t-shaped crosshair. It provides a bold design which doesn’t make the player lose sight of it. However, compared to a normal crosshair, it provides a little more clarity by removing the top line from the design. For R6 Siege, the ACOG scope’s triangular styled crosshair provides a nice boldness whilst keeping a sense of clarity. However, the bottom line would not add any significance to the crosshair, rather it would cause confusion and reduce clarity.
+Secondly, I looked into R6S which shares a few similarities with CSGO with its theming. The ACOG scope’s triangular styled crosshair provides a point to direct the player to the centre of the screen. But, the bottom line would be very distracting and unnecessary, causing confusion and reducing clarity.
 
 <figure>
   <img src="/assets/images/submariner/crosshair-gungeon.png" alt="Enter The Gungeon Crosshairs" class="has-ratio">
   <figcaption align = "center"><i>Enter The Gungeon Crosshair</i></figcaption>
 </figure>
 
-Another game I was inspired by ‘Enter the Gungeon’, an action roguelike themed around exploring a dungeon of weaponry and sentient ammunition (Enter The Gungeon, 2016). To fit with a theme, they created cursors styled in the way of different types of crosshairs. From the styles present in the game, the main ones that stuck out were the square and circle cursor with the centre dot. These different styles provided boldness whilst being clear. 
+Finally, another game that inspired me was 'Enter the Dungeon'. To fit the games theme of 'guns', they stylised cursors to emulate traditional crosshairs. From the styles, the main ones that stuck out were the square and circle cursor with the centre dot. These different styles provided boldness that may help new players. 
 
 --- 
 
