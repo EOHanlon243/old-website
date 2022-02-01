@@ -15,7 +15,7 @@ published: true
 > The Submariner Project was a joint collaboration project between the University of Portsmouth and the Royal Navy. The project involved creating an accurate Navy Submarine simulator that would later be used in Navy recruitment events. The goal of the simulation is to traverse the sea in the submarine and spot a target vessle (indicated by a red flag).
 
 --- 
-## Project Intialisation
+<!-- ## Project Intialisation
 
 As the final project of my first year of University, I was chosen to be part of Team Submariner. This team was hand selected to produce a project for an external client. The client being The Royal Navy.
 
@@ -402,3 +402,4 @@ The rotation problem was quite easy to fix, all that was required was to rotate 
 Once this was completed, the next change was to make sure the ships stay above the water. With the current way the spawn script work, they were all hard coded to spawn with a certain y axis value, to ensure they were above water. As each model had its own properties to keep in mind, hard coding a singular value for this was not ideal.
 A solution that me and another teammate came up with was to make the model a child of an empty game object that would be on the sea floor whilst changing the height of the model to look as though it is in the sea. The empty object was then applied the movement script and a nav mesh agent (to control aspects of its movement and allows for interactions with the nav mesh).
 As the nav agent was now a component onto the empty game object, of which all of them shared, it was more logical to apply the nav mesh to the bottom of the sea, allowing all the ships to keep the assigned height.
+ -->
